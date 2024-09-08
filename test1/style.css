@@ -1,0 +1,61 @@
+body {
+    background-color: #2f4f7f; /* темно-синий фон */
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* белый текст */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #ffd700; /* золотой цвет */
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1d23; /* темно-серый фон */
+    border: 1px solid #333333; /* темно-серый бордер */
+    border-radius: 10px; /* закругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* тень */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button.btn {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50; /* зеленый цвет */
+    color: #ffffff; /* белый текст */
+    border: none;
+    border-radius: 5px; /* закругленные углы */
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #3e8e41; /* темно-зеленый цвет */
+}
+
+.result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd700; /* золотой цвет */
+}
+
+/* добавьте анимацию для кнопки */
+button.btn {
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.btn:hover {
+    transition: background-color 0.3s ease-in-out;
+}
